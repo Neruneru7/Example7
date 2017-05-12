@@ -12,7 +12,7 @@ namespace Example7
         {
             sbyte valueSByte = -100;
             byte valueByte = 100;
-            short valudShor = -20000;
+            short valueShort = -20000;
             ushort valueUShort = 50000;
             int valueInt = -1000000000;
             uint valueUInt = 4000000000;
@@ -24,6 +24,23 @@ namespace Example7
 
             char valueChar = 'A';
             string valueString = "C# PROGRAM";
+
+            bool valueBool = true;
+
+            Console.WriteLine("{1} : {0}", valueSByte.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueByte.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueShort.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueUShort.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueInt.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueUInt.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueLong.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueULong.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueFloat.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueDouble.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueChar.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueString.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueBool.GetType().Name);
+            
         }
     }
 }
